@@ -29,8 +29,9 @@
 
         @keyframes blink {
           from, to { border-color: transparent }
-          50% { border-color: rgba(254,0,255,1); }
+          50% { border-color: #999999; }
         }
+
       </style>
       <div class="wrapper">
         <div class="text">
