@@ -11,9 +11,12 @@ Hi, I'm Noam Novack, a software engineering student currently studying at 42 Sch
 
 <h2>Github Stats</h2>
 <p align="center">
-
+    <a href="https://github.com/Nouvack">
       <img height=195 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=nouvack&layout=compact&langs_count=8&card_width=320&theme=vue-dark" />
+    </a>
+    <a href="https://github.com/Nouvack">
       <img height=195 align="center" src="https://github-readme-stats.vercel.app/api?username=nouvack&theme=vue-dark" />
+    </a>
     <img height=195 align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=nouvack&theme=vue-dark" alt="streak graph" />
 </p>
 
