@@ -6,4 +6,4 @@
 </div>
 <h2>About me</h2>
 
-
+Hi, I'm Noam Novack, a software engineering student currently studying at 42 School Madrid and IMMUNE Technology Institute. I'm passionate about AI, cybersecurity, and continuous learning. I enjoy developing projects that challenge me to grow my skills in backend development, algorithms, and security. I have strong communication skills, I am highly organized, and I work well in collaborative environments. Always eager to learn and take on new challenges<
