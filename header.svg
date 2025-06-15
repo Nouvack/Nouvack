@@ -16,10 +16,7 @@
       border-right: 3px solid;
       font-family: monospace;
       font-size: 4em;
-      background: linear-gradient(90deg, 
-        rgba(200,29,37,1) 0%, 
-        rgba(255,111,0,1) 50%, 
-        rgba(255,209,102,1) 100%);
+      background: linear-gradient(90deg, #A9F0E1 0%, #25F4EE 25%, #D8AA47 50%, #BA43B4 75%, #2B2E4A 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
