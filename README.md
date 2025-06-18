@@ -43,15 +43,16 @@ Hi, I'm Noam Novack, a software engineering student currently studying at 42 Sch
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 
+<h2 align="center">📊 GitHub Stats</h2>
 
-<h2>Github Stats</h2>
 <p align="center">
-    <a href="https://github.com/Nouvack">
-      <img height=195 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=nouvack&layout=compact&langs_count=8&card_width=320&theme=vue-dark" />
-    </a>
-    <a href="https://github.com/Nouvack">
-      <img height=195 align="center" src="https://github-readme-stats.vercel.app/api?username=nouvack&theme=vue-dark" />
-    </a>
-    <img height=195 align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=nouvack&theme=vue-dark" alt="streak graph" />
+  <a href="https://github.com/Nouvack">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Nouvack&show_icons=true&theme=vue-dark&include_all_commits=true&count_private=true" />
+  </a>
+  <br />
+  <a href="https://github.com/Nouvack">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nouvack&layout=compact&langs_count=8&theme=vue-dark" />
+  </a>
+  <br />
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=Nouvack&theme=vue-dark" alt="streak graph" />
 </p>
-
