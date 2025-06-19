@@ -43,7 +43,7 @@ Hi, I'm Noam Novack, a software engineering student currently studying at 42 Sch
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 
-<h2 align="center">📊 GitHub Stats</h2>
+<h2>📊 GitHub Stats</h2>
 
 <p align="center">
   <a href="https://github.com/Nouvack">
