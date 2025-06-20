@@ -54,6 +54,5 @@ Hi, I'm Noam Novack, a software engineering student currently studying at 42 Sch
     <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nouvack&layout=compact&langs_count=8&theme=tokyonight" />
   </a>
   <br />
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=Nouvack&theme=tokyonight" alt="streak graph" />
 </p>
 
