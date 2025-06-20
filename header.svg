@@ -1,42 +1,70 @@
-<svg fill="none" width="100%"  xmlns="http://www.w3.org/2000/svg">Add commentMore actions
- <foreignObject width="100%" height="100%">
-<div xmlns="http://www.w3.org/1999/xhtml">
-  <style>
-    .wrapper {
-      height: 100vh;
-      display: grid;
-      place-items: center;
-    }
+<svg width="100%" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="animatedGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1f26">
+        <animate attributeName="stop-color" values="#1e1f26; #2e2d4d; #264653; #1e1f26" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#264653">
+        <animate attributeName="stop-color" values="#264653; #1b1b2f; #2e2d4d; #264653" dur="10s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
 
-    .text {
-      width: 7ch;
-      animation: typing 1.5s steps(7), blink .5s step-end infinite alternate;
-      white-space: nowrap;
-      overflow: hidden;
-      border-right: 3px solid;
-      font-family: monospace;
-      font-size: 4em;
-      background: linear-gradient(90deg, #A9F0E1 0%, #25F4EE 25%, #D8AA47 50%, #BA43B4 75%, #2B2E4A 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
+    <circle id="particle" r="1.5" fill="#ffffff10" />
+  </defs>
 
-    @keyframes typing {
-      from {
-        width: 0
-      }
-    }
+  <rect width="1200" height="400" fill="url(#animatedGradient)" />
 
-    @keyframes blink {
-      from, to { border-color: transparent }
-      50% { border-color: rgba(255,209,102,1); }
-    }
-  </style>
-  <div class="wrapper">
-    <div class="text">
-      Nouvack
+  <g>
+    <use href="#particle">
+      <animateMotion dur="12s" repeatCount="indefinite" path="M0,0 L1200,400" begin="0s" />
+    </use>
+    <use href="#particle" x="300" y="100">
+      <animateMotion dur="18s" repeatCount="indefinite" path="M0,0 L600,300" begin="2s" />
+    </use>
+    <use href="#particle" x="900" y="50">
+      <animateMotion dur="15s" repeatCount="indefinite" path="M0,0 L-600,400" begin="1s" />
+    </use>
+    <use href="#particle" x="100" y="350">
+      <animateMotion dur="20s" repeatCount="indefinite" path="M0,0 L1100,-300" begin="4s" />
+    </use>
+  </g>
+
+  <foreignObject width="1200" height="400">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="width:100%;height:100%;">
+      <style>
+        .wrapper {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
+        }
+
+        .text {
+          max-width: 0;
+          animation: typing 2s steps(7) forwards, blink 0.6s step-end infinite alternate;
+          white-space: nowrap;
+          overflow: hidden;
+          border-right: 3px solid;
+          font-family: monospace;
+          font-size: 6.5em;
+          background: linear-gradient(90deg, #A9F0E1, #25F4EE, #D8AA47, #BA43B4, #2B2E4A);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+
+        @keyframes typing {
+          from { max-width: 0 }
+          to { max-width: 7ch }
+        }
+
+        @keyframes blink {
+          from, to { border-color: transparent }
+          50% { border-color: rgba(255,209,102,1); }
+        }
+      </style>
+      <div class="wrapper">
+        <div class="text">Nouvack</div>
+      </div>
     </div>
-  </div>
-</div>
- </foreignObject>Add commentMore actions
+  </foreignObject>
 </svg>
