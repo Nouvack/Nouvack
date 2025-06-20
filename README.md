@@ -49,11 +49,6 @@ Hi, I'm Noam Novack, a software engineering student currently studying at 42 Sch
   <a href="https://github.com/Nouvack">
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=nouvack&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
   </a>
-  <br />
-  <a href="https://github.com/Nouvack">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nouvack&layout=compact&langs_count=8&theme=tokyonight" />
-  </a>
-  <br />
 </p>
 <h2>👨🏻‍💻Languages</h2>
 <p align="center">
